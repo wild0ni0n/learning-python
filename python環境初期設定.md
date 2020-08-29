@@ -124,6 +124,7 @@ python の単体テストツールの一つ。unittest は標準のツール。
 # .gitignore の用意
 
 以下のひな型を使う
+
 https://github.com/github/gitignore/blob/master/Python.gitignore
 
 > \$ wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore -O .gitignore
@@ -157,4 +158,5 @@ Pipfile の中身と Pipfile.lock の中身が更新される。
 # 参考
 
 https://qiita.com/shibukawa/items/1650724daf117fad6ccd
+
 https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a
