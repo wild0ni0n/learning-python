@@ -1,0 +1,21 @@
+{
+  "python.venvPath": ".venv",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--max-line-length", "88"],
+  "python.linting.mypyEnabled": true,
+  "python.formatting.provider": "black",
+  "python.testing.unittestEnabled": true,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "test_*.py"
+  ],
+  "editor.formatOnSave": true,
+  "python.linting.lintOnSave": true,
+  "git.ignoreLimitWarning": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.nosetestsEnabled": false
+}
