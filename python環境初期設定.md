@@ -30,29 +30,29 @@ https://pipenv-ja.readthedocs.io/ja/translate-ja/
 
 (linux)
 
-> \$ export WORKON_HOME=~/.venvs
+`$ export WORKON_HOME=~/.venvs`
 
 (windows cmd)
 
-> set WORKON_HOME=~/.venvs
+`set WORKON_HOME=~/.venvs`
 
 (widndows PS )
 
-> [system.environment]: :SetEnvironmentVariable("WORKON_HOME","~/.venvs")
+`[system.environment]::SetEnvironmentVariable("WORKON_HOME","~/.venvs")`
 
 ### `$PIPENV_VENV_IN_PROJECT`: プロジェクトの直下に仮想環境を作る
 
 (linux)
 
-> \$ export PIPENV_VENV_IN_PROJECT=true
+`$ export PIPENV_VENV_IN_PROJECT=true`
 
 (windows cmd)
 
-> set PIPENV_VENV_IN_PROJECT=true
+`set PIPENV_VENV_IN_PROJECT=true`
 
 (windows PS)
 
-> [system.environment]: :SetEnvironmentVariable("PIPENV_VENV_IN_PROJECT","true")
+`[system.environment]::SetEnvironmentVariable("PIPENV_VENV_IN_PROJECT","true")`
 
 ## プロジェクト環境の作成
 
