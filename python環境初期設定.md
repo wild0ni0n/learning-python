@@ -15,6 +15,14 @@ https://pipenv-ja.readthedocs.io/ja/translate-ja/
 
 > \$ pip install pipenv
 
+pipenvコマンドのパスを環境変数に設定する
+> \$ python3 -m site --user-base  
+> /home/red/.local
+
+`.bashrc` にパス追加
+> export PATH="$PATH:/home/red/.local/bin"  
+> \$ source ~/.bashrc
+
 ## 初期化
 
 > \$ pipenv --python [バージョン]
